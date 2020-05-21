@@ -194,7 +194,7 @@ if(mouse.x!=undefined && mouse.y!=undefined)
     len=len-1;
     for(let m=d;m<len;++m)
     {circleArray[m]=circleArray[m+1];
-    If(m==len-1)
+    if(m==len-1)
     {
     circleArray.pop();}
     }
